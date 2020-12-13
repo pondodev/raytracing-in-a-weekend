@@ -1,9 +1,9 @@
 make:
-	g++ *.cpp;
+	g++ src/*.cpp;
 	./a.out > output.ppm;
 
 compile:
-	g++ *.cpp;
+	g++ src/*.cpp;
 
 clean:
 	rm a.out;
